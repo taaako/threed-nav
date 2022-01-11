@@ -1,0 +1,72 @@
+.modal {
+    position: fixed;
+    padding: 10em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 1em;
+}
+
+.modal-open {
+    display: block;
+    margin: 10px auto;
+    width: 120px;
+    padding: 1em;
+    color: white;
+    font-weight: bold;
+    border-radius: 20rem;
+    background-color: #94c5cc;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.modal-close {
+    position: absolute;
+    margin: 20px auto;
+    width: 100px;
+    padding: 1em;
+    transform: translate(-50%, -50%);
+    background-color: #94c5cc;
+    color: white;
+    font-weight: bold;
+    border-radius: 20rem;
+    border: none;
+    cursor: pointer;
+}
+
+.faq p {
+    color: #0e7f83;
+    font-weight: bold;
+}
+
+.navText {
+    position: relative;
+    display: inline-block;
+    margin: -100px 0;
+    padding: 15px;
+    min-width: 120px;
+    max-width: 100%;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 0 5px #799fa5;
+    background: #94c5cc;
+    border-radius: 1rem;
+    opacity: 0.9;
+}
+.navText:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -12px;
+    border: 12px solid transparent;
+    border-top: 12px solid #94c5cc;
+}
+.navText p {
+    margin: 0;
+    padding: 0;
+}
