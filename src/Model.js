@@ -92,7 +92,7 @@ class NavText extends Component {
   render (){
     return(
       <div className="navText">
-        <p>Welcom!</p>
+        <p>Welcome!</p>
         <p>インストールして使ってみてね！</p>
       </div>
     );
