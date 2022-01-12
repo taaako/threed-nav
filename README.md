@@ -1,3 +1,14 @@
+# threed-nav
+## Installation
+
+To install, you can use [npm](https://npmjs.org/):
+
+    $ npm install threed-nav
+    $ npm install taaako/threed-nav (github data)
+
+## Usage
+
+Model, NavText, NavModal...
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,4 +79,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# threed-nav
+
